@@ -1,12 +1,12 @@
 import { StyledHomeWrapper, StyledTopTriangle, StyledMiddleTriangle } from './Home.styled'
+import { SlackButton } from '@/components/SlackButton/SlackButton'
 
 export const Home = () => {
   return (
     <StyledTopTriangle>
       <StyledHomeWrapper>
         <StyledMiddleTriangle />
-        <h1>Home</h1>
-        <p>Home page content</p>
+        <SlackButton />
       </StyledHomeWrapper>
     </StyledTopTriangle>
   )
